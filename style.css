@@ -1,0 +1,32 @@
+.buy-banner{
+   background: url(Assets/search\ bar\ img.png);
+   background-size: cover;
+   border-radius: 10px;
+   width:481px;
+   height: 97px;
+  }
+ 
+  .img-usa{
+   /* width: 50px;
+   height: 50px; */
+   object-fit: cover;
+   object-position: center;
+   vertical-align: middle;
+   margin-right: 5px;
+  }
+
+  .card{
+   transition: all 0.3s;
+  }
+
+  .card:hover{
+   box-shadow: 0 20px 40px rgb(137,130,130);
+   transform: scale(1);
+}
+
+.card-1:hover{
+   cursor:pointer;
+   box-shadow:none;
+   transform: none;
+   transition: none;
+}
